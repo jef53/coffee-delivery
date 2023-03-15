@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 50px;
+  margin-left: 100px;
+  img {
+    display: flex;
+  }
+}
+
+.title {
+  h1 {
+    font-family: "Baloo 2";
+    color: #c47f17;
+  }
+
+  h4 {
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+  }
+}
+
+.containerData {
+  border: none;
+  margin: 40px 0 0 0;
+  border-radius: 11px 52px 12px 52px;
+  width: 450px;
+  padding: 1px;
+  display: flex;
+
+  position: relative;
+  background: linear-gradient(to right, rgb(255, 238, 0), rgb(111, 0, 155));
+
+  img {
+    margin-right: 13px;
+  }
+  div {
+    font-size: 0.8rem;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: co;
+    width: 100%;
+  }
+}
+
+.module {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 50px 10px 50px;
+  border: none;
+  flex-direction: column;
+}

@@ -1,0 +1,64 @@
+.Address {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: 20px;
+    margin-bottom: auto;
+    margin-right: 9px;
+  }
+  .AdressTitle {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    h3 {
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+      font-weight: 500;
+      color: #403937;
+    }
+    h6 {
+      font-weight: 300;
+      color: #574f4d;
+    }
+  }
+}
+
+.mainContainer {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 30px 30px;
+  border: none;
+  border-radius: 6px;
+}
+.formContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 12.5rem 17rem 5.3rem;
+  column-gap: 0.75rem;
+  row-gap: 0.75rem;
+  grid-auto-flow: dense;
+
+  .cep {
+    grid-column: span 3;
+    max-width: 15rem;
+  }
+
+  .street {
+    grid-column: span 3;
+  }
+
+  .complement {
+    grid-column: span 2;
+  }
+
+  input[name="complement"] {
+    grid-column: span 2;
+  }
+
+  input::placeholder {
+    color: #969696;
+  }
+}

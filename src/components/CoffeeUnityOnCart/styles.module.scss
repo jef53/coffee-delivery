@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+
+  border-bottom: rgb(226, 226, 226) 1px solid;
+
+  img {
+    width: 60px;
+  }
+}
+
+.coffeeTitle {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #686868;
+
+  margin-left: 20px;
+}
+
+.coffeePrice {
+  display: flex;
+  margin-bottom: auto;
+  font-weight: bold;
+  margin-left: auto;
+  font-size: 0.93rem;
+}
+
+.addAndRemove {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.binIcon {
+  cursor: pointer;
+  background-color: #e6e5e5;
+  display: flex;
+  align-items: center;
+  font-size: 0.68rem;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  img {
+    width: 15px;
+    margin: 0 4px;
+  }
+}
+
+.plusAndMinus {
+  background-color: #e6e5e5;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 8px;
+
+  span {
+    display: flex;
+    align-items: center;
+
+    img {
+      padding: 0 5px;
+
+      cursor: pointer;
+      width: 22px;
+    }
+  }
+}

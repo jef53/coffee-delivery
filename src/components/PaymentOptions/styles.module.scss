@@ -1,0 +1,47 @@
+.main {
+  margin: 10px 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 640px;
+  background-color: #f3f2f2;
+  border: none;
+  border-radius: 8px;
+}
+
+.paymentTitle {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    margin-bottom: auto;
+    margin-right: 7px;
+  }
+
+  h3 {
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+
+  h5 {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+}
+
+.choosePayment {
+  justify-content: space-between;
+  div {
+    display: grid;
+    column-gap: 30px 30px 30px;
+  }
+}
+
+.errorContainer {
+  grid-column: span 3;
+  margin-top: 10px;
+  color: red;
+  font-size: 0.7rem;
+}
