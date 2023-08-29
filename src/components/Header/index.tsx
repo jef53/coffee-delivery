@@ -18,7 +18,7 @@ export function Header() {
       </Link>
       <div className={styles.rightContainer}>
         <div className={styles.location}>
-          <MdLocationPin size={25} /> Porto Alegre, RS
+          <MdLocationPin size={25} /> São José dos Campos, SP
         </div>
         <Link to="/completeOrder">
           <div className={styles.cart}>
